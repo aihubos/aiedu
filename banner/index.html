@@ -55,6 +55,8 @@
   .card-head{padding:18px 18px 0}
   .card-head .label{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--blue)}
   .card-head .label .ab{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--navy);color:var(--lime);font-weight:800;font-size:14px}
+  .final{display:inline-block;margin-left:6px;background:var(--lime);color:var(--navy);font-style:normal;font-size:12px;font-weight:800;padding:3px 8px;border-radius:999px;vertical-align:middle;letter-spacing:-0.02em}
+  .card-final{border-color:var(--blue);box-shadow:0 0 0 2px rgba(30,94,255,.18)}
   .card-head h2{margin-top:8px;font-size:20px;font-weight:800;letter-spacing:-0.02em}
   .card-head p{margin-top:4px;font-size:14px;color:var(--gray)}
   .previews{padding:16px 18px 0;display:grid;gap:12px}
@@ -111,16 +113,16 @@
 <header class="topbar">
   <div class="wrap">
     <img src="../logo.png" alt="AI빌더스랩">
-    <div class="title"><b>AI빌더스랩</b> · 당근모임 참여 &amp; AI교육 신청 배너 시안(초안)</div>
+    <div class="title"><b>AI빌더스랩</b> · 당근모임 참여 &amp; AI교육 신청 배너 · 시안 C 최종</div>
     <a class="link-btn" href="../">랜딩 보기 →</a>
   </div>
 </header>
 
 <main class="wrap">
   <section class="intro">
-    <span class="badge">배너 시안 · 초안</span>
+    <span class="badge">시안 C 최종</span>
     <h1>배너 시안 <em>미리보기 &amp; 다운로드</em></h1>
-    <div class="notice"><span class="tag">안내</span><span>초안입니다. 일정·수강료·인원·장소·링크는 확정 후 반영됩니다.</span></div>
+    <div class="notice"><span class="tag">최종</span><span>시안 C를 최종으로 확정했어요. 일정·수강료·인원·장소는 확정 후 반영됩니다.</span></div>
   </section>
 
   <section class="grid" aria-label="배너 시안">
@@ -173,11 +175,11 @@
     </article>
 
     <!-- C -->
-    <article class="card">
+    <article class="card card-final">
       <div class="card-head">
-        <span class="label"><span class="ab">C</span>시안 C</span>
+        <span class="label"><span class="ab">C</span>시안 C <em class="final">최종</em></span>
         <h2>프로세스 강조형</h2>
-        <p>‘AI, 듣기만 말고 해보세요’ · 진행 3단계 + [일정 입력] 칩</p>
+        <p>‘AI는 자전거입니다’ · 보기만 해서는 늘지 않습니다 · 당근모임 QR</p>
       </div>
       <div class="previews">
         <div>
@@ -200,11 +202,19 @@
   <section class="section" aria-labelledby="qr-title">
     <h2 class="sec" id="qr-title">QR 코드</h2>
     <div class="qr-box">
+      <div class="qr-img"><img src="files/daangn-qr.png" alt="당근모임 바로가기 QR 코드"></div>
+      <div class="qr-info">
+        <div class="k">시안 C 배너에 사용한 당근모임 QR</div>
+        <span class="url">https://daangn.com/kr/share/community/ref/invite-group/baRr2nojJVT?utm_campaign=share_qr_image</span>
+        <a class="btn btn-primary" href="files/daangn-qr.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>당근모임 QR PNG 다운로드</a>
+      </div>
+    </div>
+    <div class="qr-box" style="margin-top:16px">
       <div class="qr-img"><img src="files/aiedu-qr.png" alt="랜딩 페이지 QR 코드"></div>
       <div class="qr-info">
-        <div class="k">연결 URL</div>
+        <div class="k">랜딩 페이지 QR (배너 외 사용)</div>
         <span class="url">https://aihubos.github.io/aiedu/</span>
-        <a class="btn btn-primary" href="files/aiedu-qr.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>QR PNG 다운로드</a>
+        <a class="btn btn-primary" href="files/aiedu-qr.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>랜딩 QR PNG 다운로드</a>
       </div>
     </div>
   </section>
@@ -219,7 +229,7 @@
 </main>
 
 <footer>
-  <div class="wrap">© AI빌더스랩 · 배너 시안(초안)</div>
+  <div class="wrap">© AI빌더스랩 · 시안 C 최종</div>
 </footer>
 
 </body>
