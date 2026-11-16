@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI빌더스랩 배너 시안 · 당근모임 &amp; AI교육</title>
+<meta name="description" content="AI빌더스랩 당근모임 참여 & AI교육 신청 배너 시안(초안) 미리보기와 다운로드.">
+<meta name="theme-color" content="#1E5EFF">
+<meta property="og:title" content="AI빌더스랩 배너 시안 · 당근모임 & AI교육">
+<meta property="og:description" content="당근모임 참여 & AI교육 신청 배너 시안(초안) 3종 미리보기와 다운로드.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aihubos.github.io/aiedu/banner/">
+<meta property="og:image" content="https://aihubos.github.io/aiedu/og.png">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI빌더스랩 배너 시안 · 당근모임 & AI교육">
+<meta name="twitter:image" content="https://aihubos.github.io/aiedu/og.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{
+    --blue:#1E5EFF; --blue-d:#1749CC; --navy:#10224F; --lime:#D8FF6A;
+    --pill:#EAF0FF; --line:#D9DEE8; --gray:#5B6478; --gray-l:#8A93A6; --bg-soft:#F6F8FC;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:"Pretendard",-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+    background:#fff;color:var(--navy);line-height:1.6;word-break:keep-all;overflow-wrap:break-word;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+
+  /* header */
+  .topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:saturate(180%) blur(10px);-webkit-backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line)}
+  .topbar .wrap{min-height:56px;display:flex;align-items:center;gap:12px;padding-top:8px;padding-bottom:8px}
+  .topbar img{height:26px;width:auto;flex:none}
+  .topbar .title{flex:1;min-width:0;font-size:13px;font-weight:600;color:var(--gray);line-height:1.35;letter-spacing:-0.01em}
+  .topbar .title b{color:var(--navy);font-weight:700}
+  .link-btn{flex:none;display:inline-flex;align-items:center;gap:4px;height:36px;padding:0 14px;border-radius:999px;background:var(--blue);color:#fff;font-size:13.5px;font-weight:700;letter-spacing:-0.01em}
+  .link-btn:hover{background:var(--blue-d)}
+
+  /* intro */
+  .intro{padding:32px 0 8px}
+  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--pill);color:var(--blue);font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px}
+  .intro h1{margin-top:14px;font-size:28px;line-height:1.3;font-weight:800;letter-spacing:-0.03em}
+  .intro h1 em{font-style:normal;color:var(--blue)}
+  .notice{margin-top:16px;display:flex;gap:10px;align-items:flex-start;background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--gray)}
+  .notice .tag{flex:none;background:var(--lime);color:var(--navy);font-weight:800;font-size:12px;padding:2px 8px;border-radius:6px;margin-top:1px}
+
+  /* cards */
+  .grid{display:grid;gap:20px;padding:24px 0 8px}
+  .card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:#fff;display:flex;flex-direction:column}
+  .card-head{padding:18px 18px 0}
+  .card-head .label{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--blue)}
+  .card-head .label .ab{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:8px;background:var(--navy);color:var(--lime);font-weight:800;font-size:14px}
+  .card-head h2{margin-top:8px;font-size:20px;font-weight:800;letter-spacing:-0.02em}
+  .card-head p{margin-top:4px;font-size:14px;color:var(--gray)}
+  .previews{padding:16px 18px 0;display:grid;gap:12px}
+  .pv-label{font-size:12px;font-weight:700;color:var(--gray-l);margin-bottom:6px;letter-spacing:0.02em}
+  .thumb-v{display:block;background:var(--bg-soft);border:1px solid var(--line);border-radius:12px;padding:12px;height:420px;overflow:hidden}
+  .thumb-v img{height:100%;width:auto;margin:0 auto;border-radius:6px;box-shadow:0 2px 10px rgba(16,34,79,.10)}
+  .thumb-h{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .thumb-h img{width:100%;height:auto}
+  .thumb-v:hover,.thumb-h:hover{border-color:var(--blue)}
+  .hint{font-size:12px;color:var(--gray-l);margin-top:6px}
+  .dl{padding:16px 18px 18px;display:grid;gap:8px;margin-top:auto}
+  .btn{display:flex;align-items:center;justify-content:center;gap:8px;height:48px;border-radius:12px;font-size:15px;font-weight:700;letter-spacing:-0.01em;transition:background .15s ease,transform .12s ease}
+  .btn:active{transform:scale(.98)}
+  .btn-primary{background:var(--blue);color:#fff}
+  .btn-primary:hover{background:var(--blue-d)}
+  .btn-line{background:#fff;color:var(--blue);box-shadow:inset 0 0 0 1.5px var(--blue)}
+  .btn-line:hover{background:var(--pill)}
+  .btn svg{width:18px;height:18px}
+
+  /* QR */
+  .section{padding:28px 0 8px}
+  h2.sec{font-size:22px;font-weight:800;letter-spacing:-0.02em}
+  .qr-box{margin-top:14px;border:1px solid var(--line);border-radius:18px;padding:18px;display:grid;gap:16px;align-items:center}
+  .qr-box .qr-img{width:180px;height:180px;border:1px solid var(--line);border-radius:12px;padding:8px;background:#fff;margin:0 auto}
+  .qr-box .qr-img img{width:100%;height:100%}
+  .qr-info .k{font-size:12px;font-weight:700;color:var(--gray-l)}
+  .qr-info .url{margin-top:4px;display:inline-block;font-size:15px;font-weight:700;color:var(--blue);word-break:break-all;background:var(--pill);padding:6px 10px;border-radius:8px}
+  .qr-info .btn{margin-top:14px}
+
+  /* comments */
+  .comments{padding:36px 0 48px}
+  .comments .small{margin-top:6px;font-size:13px;color:var(--gray-l)}
+  .giscus-wrap{margin-top:16px}
+
+  footer{border-top:1px solid var(--line);padding:20px 0 32px;font-size:12.5px;color:var(--gray-l)}
+
+  @media (min-width:720px){
+    .topbar .title{font-size:14px}
+    .intro{padding-top:44px}
+    .intro h1{font-size:34px}
+    .grid{grid-template-columns:repeat(2,1fr)}
+    .qr-box{grid-template-columns:200px 1fr;padding:24px}
+    .qr-box .qr-img{width:200px;height:200px;margin:0}
+    .qr-info .btn{max-width:280px}
+  }
+  @media (min-width:1040px){
+    .grid{grid-template-columns:repeat(3,1fr)}
+    .thumb-v{height:460px}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <img src="../logo.png" alt="AI빌더스랩">
+    <div class="title"><b>AI빌더스랩</b> · 당근모임 참여 &amp; AI교육 신청 배너 시안(초안)</div>
+    <a class="link-btn" href="../">랜딩 보기 →</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <span class="badge">배너 시안 · 초안</span>
+    <h1>배너 시안 <em>미리보기 &amp; 다운로드</em></h1>
+    <div class="notice"><span class="tag">안내</span><span>초안입니다. 일정·수강료·인원·장소·링크는 확정 후 반영됩니다.</span></div>
+  </section>
+
+  <section class="grid" aria-label="배너 시안">
+    <!-- A -->
+    <article class="card">
+      <div class="card-head">
+        <span class="label"><span class="ab">A</span>시안 A</span>
+        <h2>레퍼런스 충실형</h2>
+        <p>‘비전공자도 직접 만드는 AI 교육’ · 하단 ‘실습 중심’</p>
+      </div>
+      <div class="previews">
+        <div>
+          <div class="pv-label">세로 1080×3240</div>
+          <a class="thumb-v" href="files/banner-A-v.png" target="_blank" rel="noopener"><img src="files/banner-A-v.png" alt="시안 A 세로 배너" loading="lazy"></a>
+          <div class="hint">클릭하면 원본이 새 탭에서 열려요</div>
+        </div>
+        <div>
+          <div class="pv-label">가로 1200×400</div>
+          <a class="thumb-h" href="files/banner-A-h.png" target="_blank" rel="noopener"><img src="files/banner-A-h.png" alt="시안 A 가로 배너" loading="lazy"></a>
+        </div>
+      </div>
+      <div class="dl">
+        <a class="btn btn-primary" href="files/banner-A-v.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>세로 1080×3240 PNG</a>
+        <a class="btn btn-line" href="files/banner-A-h.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>가로 1200×400 PNG</a>
+      </div>
+    </article>
+
+    <!-- B -->
+    <article class="card">
+      <div class="card-head">
+        <span class="label"><span class="ab">B</span>시안 B</span>
+        <h2>2-스텝 CTA형</h2>
+        <p>‘당근모임 참여하고 AI 배우기’ · STEP1·STEP2 카드</p>
+      </div>
+      <div class="previews">
+        <div>
+          <div class="pv-label">세로 1080×3240</div>
+          <a class="thumb-v" href="files/banner-B-v.png" target="_blank" rel="noopener"><img src="files/banner-B-v.png" alt="시안 B 세로 배너" loading="lazy"></a>
+          <div class="hint">클릭하면 원본이 새 탭에서 열려요</div>
+        </div>
+        <div>
+          <div class="pv-label">가로 1200×400</div>
+          <a class="thumb-h" href="files/banner-B-h.png" target="_blank" rel="noopener"><img src="files/banner-B-h.png" alt="시안 B 가로 배너" loading="lazy"></a>
+        </div>
+      </div>
+      <div class="dl">
+        <a class="btn btn-primary" href="files/banner-B-v.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>세로 1080×3240 PNG</a>
+        <a class="btn btn-line" href="files/banner-B-h.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>가로 1200×400 PNG</a>
+      </div>
+    </article>
+
+    <!-- C -->
+    <article class="card">
+      <div class="card-head">
+        <span class="label"><span class="ab">C</span>시안 C</span>
+        <h2>프로세스 강조형</h2>
+        <p>‘AI, 듣기만 말고 해보세요’ · 진행 3단계 + [일정 입력] 칩</p>
+      </div>
+      <div class="previews">
+        <div>
+          <div class="pv-label">세로 1080×3240</div>
+          <a class="thumb-v" href="files/banner-C-v.png" target="_blank" rel="noopener"><img src="files/banner-C-v.png" alt="시안 C 세로 배너" loading="lazy"></a>
+          <div class="hint">클릭하면 원본이 새 탭에서 열려요</div>
+        </div>
+        <div>
+          <div class="pv-label">가로 1200×400</div>
+          <a class="thumb-h" href="files/banner-C-h.png" target="_blank" rel="noopener"><img src="files/banner-C-h.png" alt="시안 C 가로 배너" loading="lazy"></a>
+        </div>
+      </div>
+      <div class="dl">
+        <a class="btn btn-primary" href="files/banner-C-v.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>세로 1080×3240 PNG</a>
+        <a class="btn btn-line" href="files/banner-C-h.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>가로 1200×400 PNG</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="section" aria-labelledby="qr-title">
+    <h2 class="sec" id="qr-title">QR 코드</h2>
+    <div class="qr-box">
+      <div class="qr-img"><img src="files/aiedu-qr.png" alt="랜딩 페이지 QR 코드"></div>
+      <div class="qr-info">
+        <div class="k">연결 URL</div>
+        <span class="url">https://aihubos.github.io/aiedu/</span>
+        <a class="btn btn-primary" href="files/aiedu-qr.png" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0l-4.5-4.5M12 15l4.5-4.5M5 20h14"/></svg>QR PNG 다운로드</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="comments" aria-labelledby="cm-title">
+    <h2 class="sec" id="cm-title">의견 남기기</h2>
+    <p class="small">댓글은 GitHub 로그인이 필요해요.</p>
+    <div class="giscus-wrap">
+      <script src="https://giscus.app/client.js" data-repo="aihubos/aiedu" data-repo-id="R_kgDOVv2N7Q" data-category="General" data-category-id="DIC_kwDOVv2N7c4DLOjT" data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="ko" data-loading="lazy" crossorigin="anonymous" async></script>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© AI빌더스랩 · 배너 시안(초안)</div>
+</footer>
+
+</body>
+</html>
